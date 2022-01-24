@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    padding: 0px;
+    margin: 0px;
+}
+.content-home-welcome {
+    font-size: 30px;
+    text-align: center;
+    color: red;
+}
+.container-page-notification {
+    padding: 0 123px;
+    margin-top: 1px;
+    text-align: center;
+}
+.container-page-text {
+    margin: 20px;
+    font-size: 25px;
+    color: red;
+}
+.container-page-notification > img {
+    border: 2px solid red;
+}
+.library-text {
+    text-align: justify;
+    font-size: 15px;
+    margin-top: 5px;
+}

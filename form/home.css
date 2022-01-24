@@ -1,0 +1,45 @@
+body {
+    padding:0px;
+    margin:0px;
+}
+.schedule-10 {
+    background-color: #eeeff2;
+    float: left;
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    align-items: center;
+    margin: 10px;
+}
+.schedule-10 > a > img {
+    border: 1px solid red;
+    width: 40%;
+}
+.schedule-11 {
+    background-color: #eeeff2;
+    float: left;
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    align-items: center;
+    margin: 10px;
+}
+.schedule-11 > a > img {
+    border: 1px solid red;
+    width: 40%;
+}
+.schedule-12 {
+    background-color: #eeeff2;
+    width: 97%;
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    align-items: center;
+    margin: 10px;
+}
+.schedule-12 > a > img {
+    border: 1px solid red;
+    width: 40%;
+}
