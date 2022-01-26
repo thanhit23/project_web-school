@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
+    <title>Trần Văn Dư</title>
+    <link rel="icon" href="/img/logo-img.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/booostrap.css">
     <link rel="stylesheet" href="./themify-icons/themify-icons.css">
 </head>
 <body>
@@ -15,21 +17,21 @@
                 <img src="./img/logo.jpg" alt="logo_truong">
                 <p>TVD</p>
             </a>
-            <a href="./home.html" class="nav-list">Trang Chủ</a>
+            <a href="#" class="nav-list">Trang Chủ</a>
             <div class="nav-list-introduct">
                 <a href="#" class="nav-list-introduct_link">
                     Giới Thiệu
                 </a>
                     <div class="nav-hover-item">
                         <div class="hover-item_list">
-                            <a href="./form/diagram.html" target="page" class="item_list-diagram">Sơ Đồ Tổ Chức</a>
-                            <a href="./form/library.html" target="page" class="item_list-library">Thư Viện</a>
+                            <a href="./pages/html/diagram.html" class="item_list-diagram">Sơ Đồ Tổ Chức</a>
+                            <a href="./pages/html/library.html" class="item_list-library">Thư Viện</a>
                         </div>
                     </div>
             </div>
             <a href="#" class="nav-list">Góp Ý</a>
             <a href="#" class="nav-list">Hỏi Đáp </a>
-            <a href="#" class="nav-list">Liên Hệ</a>
+            <a href="#footer" class="nav-list">Liên Hệ</a>
             <div class="container-focus-btn-search">
                 <div class="focus-btn-search">
                     <i class="ti-search icon-search-focus"></i>
@@ -49,7 +51,7 @@
             </div>
         </div>
     </nav>
-    <div class="container-slide">
+    <div id="home" class="container-slide">
         <img src="./img/img_truong.png" alt="" class="container-slide-img">
     </div>
     <div class="container-tour_notice">
@@ -105,6 +107,9 @@
     </div>
     <div class="container-content">
         <div class="container-news">
+            <div class="container-title">
+                <h2>Cập Nhật Sự Kiện</h2>
+            </div>
             <div class="container-page-list">
                 <div class="page-list-col">
                     <div class="page-list-col-4">
@@ -112,13 +117,26 @@
                             <img src="./img/student_1.png" alt="">
                         </div>
                         <div class="list-col-4_text">
-                            <p class="list-col_4">Giải Nhất</p>
-                            <p>Đạo Đức Và Pháp Luật</p>
+                            <h4 class="list-col_4">LEARNING ENGLISH HISTORY</h4>
+                            <ul class="list-col-4_text_list">
+                                <li>
+                                    <p>Time: 9.00 AM - 4.45 PM</p>
+                                </li>
+                                <li>
+                                    <p>Venue: Hội Trường</p>
+                                </li>
+                            </ul>
                         </div>
                         <div class="list-col-4-btn">
                             <a href="#" class="col-4-btn_link">
-                                <button>Xem Thêm</button>
+                                <button>Tham Gia Ngay</button>
                             </a>
+                        </div>
+                        <div class="event-date">
+                            <h3 class="event-date-day">
+                                18
+                                <p>JAN</p>
+                            </h3>
                         </div>
                     </div>
                 </div>
@@ -128,13 +146,26 @@
                             <img src="./img/campfire.png" alt="">
                         </div>
                         <div class="list-col-4_text">
-                            <p class="list-col_4">Nghệ Thuật</p>
-                            <p>Lễ Hội Lữa Trại</p>
+                            <h4 class="list-col_4">LEARNING ENGLISH HISTORY</h4>
+                            <ul class="list-col-4_text_list">
+                                <li>
+                                    <p>Time: 9.00 AM - 4.45 PM</p>
+                                </li>
+                                <li>
+                                    <p>Venue: Hội Trường</p>
+                                </li>
+                            </ul>
                         </div>
                         <div class="list-col-4-btn">
                             <a href="#" class="col-4-btn_link">
-                                <button>Xem Thêm</button>
+                                <button>Tham Gia Ngay</button>
                             </a>
+                        </div>
+                        <div class="event-date">
+                            <h3 class="event-date-day">
+                                18
+                                <p>JAN</p>
+                            </h3>
                         </div>
                     </div>
                 </div>
@@ -144,40 +175,133 @@
                             <img src="./img/sport.png" alt="">
                         </div>
                         <div class="list-col-4_text">
-                            <p class="list-col_4">Hiệu Trưởng</p>
-                            <p>PHAN THỊ MỸ THANH</p>
+                            <h4 class="list-col_4">LEARNING ENGLISH HISTORY</h4>
+                            <ul class="list-col-4_text_list">
+                                <li>
+                                    <p>Time: 9.00 AM - 4.45 PM</p>
+                                </li>
+                                <li>
+                                    <p>Venue: Hội Trường</p>
+                                </li>
+                            </ul>
                         </div>
                         <div class="list-col-4-btn">
                             <a href="#" class="col-4-btn_link">
-                                <button>Xem Thêm</button>
+                                <button>Tham Gia Ngay</button>
                             </a>
+                        </div>
+                        <div class="event-date">
+                            <h3 class="event-date-day">
+                                18
+                                <p>JAN</p>
+                            </h3>
                         </div>
                     </div>
                 </div>
             </div>   
         </div>
-        <div class="container-page-map">
-            <p>MAP</p>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d30742.066780192923!2d108.426507!3d15.6045548!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3169e78068520b21%3A0x2ff421bd8e008124!2zVEhQVCBUcuG6p24gVsSDbiBExrA!5e0!3m2!1sen!2s!4v1643017055144!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        </div>
-        <div class="container-slide-covid">
-            <img src="./img/img_covid.png" alt="">
+        <div id="map" class="container-page-map">
+            <h2>MAP</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d30742.066780192923!2d108.426507!3d15.6045548!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3169e78068520b21%3A0x2ff421bd8e008124!2zVEhQVCBUcuG6p24gVsSDbiBExrA!5e0!3m2!1sen!2s!4v1643017055144!5m2!1sen!2s" width="1100" height="450" style="border: 0; margin-bottom: 50px;" allowfullscreen="" loading="lazy"></iframe>
         </div>
     </div>
-    <div class="container-footer">
-        <div class="container-footer-infomation">
-           <div>
-                <div>
-                    <a href="#" class="nav-list-logo">
-                        <img src="./img/logo-img.jpg" alt="logo_truong">
-                        <p>TVD</p>
-                    </a>
+    <div class="container-about-area">
+        <div class="container ">
+            <div class="row about-area">
+                <div class="col-md-6">
+                    <div class="about-content">
+                        <h2><span>TVDHOME</span> the best education theme for you</h2>
+                        <p>I must explain to you how all this mistaken idea of denouncing pleure and prsing pain was born and I will give you a complete account of the system, and expound the actual teachings  the master-builder of humanit happiness</p>
+                        <p>I must explain to you how all this mistaken idea of denouncing pleure and prsing pain was born and I will give you a complete account of the system</p>
+                        <a class="default-btn" href="about.html">buy now</a>
+                    </div>
                 </div>
-           </div>
+                <div class="col-md-6">
+                    <div class="about-img">
+                        <div class="after-about-img"></div>
+                        <img src="./img/about.webp" alt="">
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </div>
+    <div id="footer" class="container-footer">
+        <div class="container footer-information">
+            <div class="row container-footer-list">
+                <div class="col-lg-3">
+                    <div class="single-widget single-widget-img">
+                        <img src="/img/logo-img.jpg" alt="logo school" class="single-widget-logo">
+                        <div class="list-icon-link">
+                            <a href="#" class="decoration-none">
+                                <i class="ti-facebook item-icon-link"></i>
+                            </a>
+                            <a href="#" class="decoration-none">
+                                <i class="ti-instagram item-icon-link"></i>
+                            </a>
+                            <a href="#" class="decoration-none">
+                                <i class="ti-twitter-alt item-icon-link"></i>
+                            </a>
+                            <a href="#" class="decoration-none">
+                                <i class="ti-youtube item-icon-link"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="single-widget">
+                        <h3>tại sao chọn tvd</h3>
+                        <p>Khuôn viên tuyệt vời<br>Tổ chức nhỉều buổi sự kiện </p>
+                        <p>Giáo viên nhiệt tinh, tân tâm<br>Nhũng khóa học bổ ích</p>
+                        <p>Nên giáo dục tốt<br>Luôn cập nhật kiến thức mới</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="single-widget">
+                        <h3>Thông tin</h3>
+                        <p>Lịch học<br>Danh sách sự kiện</p>
+                        <p>Thời gian biểu</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="single-widget">
+                        <h3>Liên lạc</h3>
+                        <p>
+                            <i class="ti-location-pin"></i>
+                            <a href="#map" class="single-widget-location">
+                                Tam An - Phú Ninh - Quảng Nam
+                            </a>
+                            </p>
+                        <p>
+                            <i class="ti-mobile">
+                                <a href="tele:+00 1515151515" class="single-widget-location">
+                                    +00 1515151515
+                                </a>
+                            </i> <br>
+                            <i class="ti-mobile">
+                                <a href="tele:+00 1515151515" class="single-widget-location">
+                                    +00 1515151515
+                                </a>
+                            </i> 
+                        </p>
+                        <p>
+                            <i class="ti-email">
+                                <a href="mailto:info@eduhome.com" class="single-widget-location">
+                                    info@eduhome.com
+                                </a>
+                            </i> <br>
+                            <i class="ti-world">
+                                <a href="mailto:www.eduhome.com" class="single-widget-location">
+                                    www.eduhome.com
+                                </a>
+                            </i> 
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="container-footer-copyright">
             <p class="footer-copyright">
-                Copyright © <a href="#">Eduhome</a> 2021. All Right Reserved By EDUVN.
+                Copyright © <a href="#">TVD</a> 2021. All Right Reserved By EDUVN.
             </p>
         </div>
     </div>
