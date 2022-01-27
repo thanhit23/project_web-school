@@ -1,0 +1,85 @@
+
+.slide-img {
+    width: 100%;
+}
+.cover-contact-slide {
+    position: relative;
+}
+.cover-contact {
+    width: 100% !important;
+}
+.slide-contact {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slide-contact p {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 50px;
+    color: #fff;
+}
+.container-cover-contact {
+    margin-top: 100px;
+    display: flex;
+}
+.contact-contents {
+    box-shadow: 0px 0px 8px 0px rgb(0 0 0 / 13%);
+    padding: 50px 0;
+}
+.list-page-map {
+    display: flex;
+    flex-direction: column;
+}
+.list-page-map > h2 {
+    margin: 0;
+}
+.list-page-map > p {
+    color: #767676;
+    font-size: 15px;
+    line-height: 20px;
+}
+.single-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-icon {
+    display: flex;
+    width: 35px;
+    height: 35px;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    border: 1px solid #e3e3e3;
+    border-radius: 50%;
+}
+.icon-marker-pin {
+    color: #7d7d7d;
+    padding: 0px 5px;
+}
+.icon-fb_web {
+    font-size: 35px;
+    color: #7d7d7d;
+    padding: 5px 12px;
+}
+.contact-add {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-add > h3 {
+    text-transform: capitalize;
+}
+.contact-add > p {
+    color: #606060;
+    line-height: 25px;
+    margin: 0;
+    font-size: 16px;
+}
