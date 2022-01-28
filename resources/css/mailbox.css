@@ -1,5 +1,8 @@
-.header-mailbox {
-    padding: 0 30px;
+.container-content-mailbox{
+    padding: 100px 0;
+}
+.content-mailbox {
+    display: flex;
 }
 .mailbox-address {
     display: flex;
@@ -9,13 +12,18 @@
     margin: 0;
     padding: 10px;
 }
+.mailbox-address > p {
+    font-size: 16px;
+    color: #7d7d7d;
+}
 .mailbox-contact > h4 {
     margin: 0;
     padding-left: 10px;
 }
 .mailbox-contact > p,
 .mailbox-contact > a {
-    margin: 0 70px;
+    margin: 0 90px;
+    line-height: 22px;
 }
 .mailbox-form-content{
     margin-bottom: 10px;
@@ -24,16 +32,25 @@
     margin-left: 120px;
     margin-bottom: 10px;
 }
+.mailbox-enter {
+    margin-top: 20px;
+}
 .mailbox-enter > button {
     margin-left: 120px;
-    font-size: 17px;
+    font-size: 16px;
     border: none;
-    background-color: #999;
-    color: #333;
-    border-radius: 5px;
+    background-color: #2c2b5e;
+    color: #fff;
+    border-radius: 2px;
+    padding: 7px 15px;
 }
 .mailbox-enter > button:hover {
     cursor: pointer;
     color: #fff;
     background-color: #f74b1a; 
+}
+.note-maibox {
+    color: #606060;
+    font-size: 16px;
+    text-align: justify;
 }
