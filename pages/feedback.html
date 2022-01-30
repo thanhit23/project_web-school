@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TVD - Liên Hệ</title>
+    <title>TVD - Góp Ý</title>
     <link rel="icon" href="/resources/img/logo-img.png" type="image/x-icon" />
+    <link rel="stylesheet" href="/resources/css/feedback.css">
     <link rel="stylesheet" href="/resources/css/style.css">
     <link rel="stylesheet" href="/resources/css/contact.css">
     <link rel="stylesheet" href="/resources/css/booostrap.css">
@@ -31,11 +32,12 @@
                     </div>
                 </div>
             </div>
-            <a href="/pages/feedback.html" class="nav-list">Góp Ý</a>
+            <a href="#" class="nav-list">Góp Ý</a>
             <a href="/pages/maibox.html" class="nav-list">Hỏi Đáp </a>
             <a href="/pages/contact.html" class="nav-list">Liên Hệ</a>
             <div class="container-focus-btn-search">
                 <div class="focus-btn-search">
+                    <!-- <i class="ti-search icon-search-focus"></i> -->
                     <div class="nav-list-form">
                         <div class="list-form-search">
                             <form action="#">
@@ -53,13 +55,13 @@
         </div>
     </nav>
     <div class="container-slide">
-        <div class="slide-contact">
+        <div class="slide-feedbook">
             <div class="container">
                 <div class="row banner-slide-wrapper">
                     <div class="col-12">
                         <div class="container-content-slide">
                             <div class="banner-content">
-                                <p>Liên hệ</p>
+                                <p>Góp Ý</p>
                             </div>
                         </div>
                     </div>
@@ -68,49 +70,69 @@
             <div class="after-slide-area"></div>
         </div>
     </div>
-    <div class="container">
-        <div class="row container-cover-contact">
-            <div class="col-lg-4 mb-50">
-                <div class="contact-contents">
-                    <div class="single-contact mb-65">
-                        <div class="contact-icon">
-                            <i class="fa fa-map-marker icon-marker-pin" aria-hidden="true"></i>
+    <div class="contact-area"> 
+        <div class="container">     
+            <div class="row container-contact-area">
+                <div class="col-lg-5 col-md-5">
+                    <div class="contact-contents text-center">
+                        <div class="single-contact mb-65">
+                            <div class="contact-icon">
+                                <i class="fa fa-map-marker icon-marker-pin" aria-hidden="true"></i>
+                            </div>
+                            <div class="contact-add">
+                                <h3>Địa Chỉ</h3>
+                                <p>Tam An - Phú Ninh</p>
+                                <p>Quảng Nam, Việt Nam</p>
+                            </div>
                         </div>
-                        <div class="contact-add">
-                            <h3>địa chỉ</h3>
-                            <p>Tam An - Phú Ninh</p>
-                            <p>Quảng Nam, Việt Nam</p>
+                        <div class="single-contact mb-65">
+                            <div class="contact-icon">
+                                <a href="#">
+                                     <i class="fa fa-phone icon-fb_web" aria-hidden="true"></i>
+                                </a>
+                             </div>
+                             <div class="contact-add">
+                                 <h3>Điện thoại</h3>
+                                 <p>84+ 0510.3849211</p>
+                             </div>
+                        </div>
+                        <div class="single-contact">
+                            <div class="contact-icon">
+                                <i class="fa fa-envelope-o icon-fb_web" aria-hidden="true"></i>
+                            </div>
+                            <div class="contact-add">
+                                <h3>Email</h3>
+                                <p>tvd@edu.vn</p>
+                                <p>tranvandu@edu.vn</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="single-contact mb-65">
-                        <div class="contact-icon">
-                           <a href="#">
-                                <i class="fa fa-phone icon-fb_web" aria-hidden="true"></i>
-                           </a>
-                        </div>
-                        <div class="contact-add">
-                            <h3>điện thoại</h3>
-                            <p>84+ 0510.3849211</p>
-                            <p>84+ 0510.3848572</p>
-                        </div>
+                </div>    
+                <div class="col-lg-7 col-md-7">
+                    <div class="reply-area">
+                        <h3>Để lại lời nhắn</h3>
+                        <p>Chúng tôi rất mong sự góp của bạn. Nếu có gì thắc mắc thì hãy gọi đến tổng đài 84+ 0510.3849211 để được tư vấn trực tiếp. </p>
+                        <form id="contact-form" action="#">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <p>Tên</p>
+                                    <input type="text" placeholder="Xin mời nhập tên..." name="con_name" class="feedbook-input">
+                                </div>
+                                <div class="col-md-12">
+                                    <p>Email</p>
+                                    <input type="text" placeholder="Email của bạn..." name="con_email" class="feedbook-input">
+                                </div>
+                                <div class="col-md-12">
+                                    <p>Subject</p>
+                                    <input type="text" placeholder="" name="con_subject" class="feedbook-input">
+                                    <p>Massage</p>
+                                    <textarea name="con_message" class="feedbook-textarea" cols="15" rows="10"></textarea>
+                                </div>
+                            </div>
+                            <button class="feedbook-btn" type="submit"><span>gửi lời nhắn</span></button>
+                            <p class="form-message"></p>
+                        </form>
                     </div>
-                    <div class="single-contact">
-                        <div class="contact-icon">
-                            <i class="fa fa-envelope-o icon-fb_web" aria-hidden="true"></i>
-                        </div>
-                        <div class="contact-add">
-                            <h3>Email</h3>
-                            <p>tvd@edu.vn</p>
-                            <p>tranvandu@edu.vn</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-8 mb-50">
-                <div id="map" class="list-page-map">
-                    <h2>MAP</h2>
-                    <p>Để biết thêm thông tin thì xin hãy liên lạc trực tiếp với chúng tôi Tel: 84+ 0510.3849211 hoặc liên lạc trực tiếp qua Email page của chúng tôi</p>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d30742.066780192923!2d108.426507!3d15.6045548!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3169e78068520b21%3A0x2ff421bd8e008124!2zVEhQVCBUcuG6p24gVsSDbiBExrA!5e0!3m2!1sen!2s!4v1643017055144!5m2!1sen!2s" width="800" height="570" style="border: 0; margin-bottom: 50px;" allowfullscreen="" loading="lazy"></iframe>
                 </div>
             </div>
         </div>
@@ -216,10 +238,10 @@
             </p>
         </div>
     </div>
-    <div class="scrollup">
-        <a id="scrollUp" href="#top" style="position: fixed; z-index: 2147483647;">
-            <i class="fa fa-angle-up"></i>
-        </a>
-    </div>
+  <div class="scrollup">
+      <a id="scrollUp" href="#top" style="position: fixed; z-index: 2147483647;">
+          <i class="fa fa-angle-up"></i>
+      </a>
+  </div>
 </body>
 </html>

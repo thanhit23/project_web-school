@@ -1,8 +1,16 @@
+.slide-mailbox {
+    background: url(/resources/img/cover-mailbox.png) scroll center center / cover;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    background-repeat: no-repeat;
+}
 .container-content-mailbox{
     padding: 100px 0;
 }
 .content-mailbox {
     display: flex;
+    border: 1px solid #d7d7d7
 }
 .mailbox-address {
     display: flex;
