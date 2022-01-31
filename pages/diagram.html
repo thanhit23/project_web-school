@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sơ Đồ Tổ chức</title>
+    <link rel="icon" href="/resources/img/logo-img.png" type="image/x-icon" />
     <link rel="stylesheet" href="/resources/css/diagram.css">
     <link rel="stylesheet" href="/resources/css/style.css">
-    <link rel="stylesheet" href="/css/booostrap.css">
+    <link rel="stylesheet" href="/resources/css/booostrap.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" integrity="sha512-i8+QythOYyQke6XbStjt9T4yQHhhM+9Y9yTY1fOxoDQwsQpKMEpIoSQZ8mVomtnVCf9PBvoQDnKl06gGOOD19Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
@@ -17,21 +18,22 @@
                 <img src="/resources/img/logo-img.png" alt="logo_truong">
                 <p>TVD</p>
             </a>
-            <a href="/home.html" class="nav-list">Trang Chủ</a>
+            <a href="#" class="nav-list">Trang Chủ</a>
             <div class="nav-list-introduct">
                 <a href="#" class="nav-list-introduct_link">
                     Giới Thiệu
                 </a>
-                    <div class="nav-hover-item">
-                        <div class="hover-item_list">
-                            <a href="/pages/diagram.html" class="item_list-diagram">Sơ Đồ Tổ Chức</a>
-                            <a href="/pages/library.html" class="item_list-library">Thư Viện</a>
-                        </div>
+                <div class="nav-hover-item">
+                    <div class="hover-item_list">
+                        <a href="/pages/diagram.html" class="item_list-diagram">Sơ Đồ Tổ Chức</a>
+                        <a href="/pages/library.html" class="item_list-library">Thư Viện</a>
+                        <a href="/pages/event.html" class="item_list-library">Sự kiện</a>
                     </div>
+                </div>
             </div>
             <a href="#" class="nav-list">Góp Ý</a>
-            <a href="#" class="nav-list">Hỏi Đáp </a>
-            <a href="#" class="nav-list">Liên Hệ</a>
+            <a href="/pages/maibox.html" class="nav-list">Hỏi Đáp </a>
+            <a href="/pages/contact.html" class="nav-list">Liên Hệ</a>
             <div class="container-focus-btn-search">
                 <div class="focus-btn-search">
                     <!-- <i class="ti-search icon-search-focus"></i> -->
@@ -51,51 +53,60 @@
             </div>
         </div>
     </nav>
-    <div class="container-slide">
-        <img src="/resources/img/cover-difgram.jpg" alt="" class="container-slide-img">
+    <div id="home" class="container-slide cover-contact-slide">
+        <div class="slide-img ">
+            <img src="/resources/img/cover-difgram.jpg" alt="" class="container-slide-img cover-contact">
+        </div>
+        <div class="slide-contact">
+            <p>Sơ Đồ Tổ Chức</p>
+        </div>
     </div>
     <div class="header-content-page">
-        <div class="container-page-notification">
-            <div class="container-page-diagram">Sơ Đồ Cơ Cấu Ban Giám Hiệu</div>
-            <div class="container-page-list">
-                <div class="page-list-col">
-                    <div class="page-list-col-4">
-                        <div class="list-col-4_img">
-                            <img src="/img/Trong_truong.jpg" alt="">
+        <div class="container">
+            <div class="row">
+                <div class="container-page-notification">
+                    <div class="container-page-diagram">Sơ Đồ Cơ Cấu Ban Giám Hiệu</div>
+                    <div class="container-page-diagram_list">
+                        <div class="col-md-4">
+                            <div class="page-list-col-3">
+                                <div class="list-col-3_img">
+                                    <img src="/resources/img/Trong_truong.jpg" alt="">
+                                </div>
+                                <div class="list-col-3_text">
+                                    <p>Nguyên Hiệu Trưởng</p>
+                                    <p>PHẠM MINH THÀNH</p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="list-col-4_text">
-                            <p class="list-col_4">Nguyên Hiệu Trưởng</p>
-                            <p>PHẠM MINH THÀNH</p>
+                        <div class="col-md-4">
+                            <div class="page-list-col-3">
+                                <div class="list-col-3_img">
+                                    <img src="/resources/img/Hieu_pho.jpg" alt="">
+                                </div>
+                                <div class="list-col-3_text">
+                                    <p>Hiệu Phó</p>
+                                    <p>PHAN VĂN HÙNG</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="page-list-col-3">
+                                <div class="list-col-3_img">
+                                    <img src="/resources/img/mthanh2.jpg" alt="">
+                                </div>
+                                <div class="list-col-3_text">
+                                    <p>Hiệu Trưởng</p>
+                                    <p>PHAN THỊ MỸ THANH</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="page-list-col">
-                    <div class="page-list-col-4">
-                        <div class="list-col-4_img">
-                            <img src="/img/Hieu_pho.jpg" alt="">
-                        </div>
-                        <div class="list-col-4_text">
-                            <p class="list-col_4">Hiệu Phó</p>
-                            <p>PHAN VĂN HÙNG</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="page-list-col">
-                    <div class="page-list-col-4">
-                        <div class="list-col-4_img">
-                            <img src="/img/mthanh2.jpg" alt="">
-                        </div>
-                        <div class="list-col-4_text">
-                            <p class="list-col_4">Hiệu Trưởng</p>
-                            <p>PHAN THỊ MỸ THANH</p>
-                        </div>
+                    <div class="container-page-text">
+                        <p>Sơ Đồ Tổ Chức</p>
+                        <img src="/resources/img/so_do_to_chuc.png" alt="">
                     </div>
                 </div>
             </div>
-            <div class="container-page-text">
-                Sơ Đồ Tổ Chức
-            </div>
-            <img src="/img/so_do_to_chuc.png" alt="">
         </div>
     </div>
     <div class="container-footer">
