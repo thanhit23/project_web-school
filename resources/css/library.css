@@ -1,6 +1,31 @@
+.slide-library {
+    background: url(/resources/img/cover-library.png) scroll center center / cover;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    background-repeat: no-repeat;
+}
+.header-content-home {
+    margin-bottom: 20px;
+}
 .content-home-welcome {
     font-size: 30px;
     text-align: center;
     color: red;
 }
-
+.header-content-page {
+    margin: 100px 0;
+}
+.container-page-notification > img {
+    width: 100%;
+}
+.container-page-text {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+.library-text {
+    text-align: justify;
+    font-size: 18px;
+    line-height: 24px;
+}

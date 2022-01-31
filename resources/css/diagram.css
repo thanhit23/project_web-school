@@ -1,3 +1,10 @@
+.slide-diagram {
+    background: url(/resources/img/cover-difgram.jpg) scroll center center / cover;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    background-repeat: no-repeat;
+}
 /* * {
     margin: 0;
     padding: 0;

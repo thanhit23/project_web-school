@@ -1,9 +1,12 @@
-
-.slide-img {
-    width: 100%;
-}
-.cover-contact-slide {
+.slide-contact {
+    background: url(/resources/img/cover-contact.jpg) scroll center center / cover;
     position: relative;
+    width: 100%;
+    z-index: 1;
+    background-repeat: no-repeat;
+}
+/* .slide-img {
+    width: 100%;
 }
 .cover-contact {
     width: 100% !important;
@@ -24,11 +27,11 @@
     font-weight: bold;
     font-size: 50px;
     color: #fff;
-}
+}*/
 .container-cover-contact {
     margin-top: 100px;
     display: flex;
-}
+} 
 .contact-contents {
     box-shadow: 0px 0px 8px 0px rgb(0 0 0 / 13%);
     padding: 50px 0;
