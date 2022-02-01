@@ -1,33 +1,6 @@
-.slide-contact {
+.title-contact {
     background: url(/resources/img/cover-contact.jpg) scroll center center / cover;
-    position: relative;
-    width: 100%;
-    z-index: 1;
-    background-repeat: no-repeat;
 }
-/* .slide-img {
-    width: 100%;
-}
-.cover-contact {
-    width: 100% !important;
-}
-.slide-contact {
-    background-color: rgba(0, 0, 0, 0.5);
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.slide-contact p {
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 50px;
-    color: #fff;
-}*/
 .container-cover-contact {
     margin-top: 100px;
     display: flex;
