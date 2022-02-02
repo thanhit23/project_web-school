@@ -1,9 +1,5 @@
-.slide-event {
+.title-event {
     background: url(/resources/img/cover-event.png) scroll center center / cover;
-    position: relative;
-    width: 100%;
-    z-index: 1;
-    background-repeat: no-repeat;
 }
 .event-area-sildebar {
     display: flex;

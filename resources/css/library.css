@@ -1,9 +1,5 @@
-.slide-library {
+.title-library {
     background: url(/resources/img/cover-library.png) scroll center center / cover;
-    position: relative;
-    width: 100%;
-    z-index: 1;
-    background-repeat: no-repeat;
 }
 .header-content-home {
     margin-bottom: 20px;

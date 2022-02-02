@@ -146,19 +146,21 @@ html {
     color: #fff;
 }
 
-.slide-home {
-    background: url(/resources/img/img_truong.png) scroll center center / cover;
+.banner-area {
     position: relative;
     width: 100%;
     z-index: 1;
     background-repeat: no-repeat;
+}
+.title-home {
+    background: url(/resources/img/img_truong.png) scroll center center / cover;
 }
 .banner-slide-wrapper {
     display: flex;
     justify-content: center;
 }
 .banner-content {
-    padding: 100px 0;
+    padding: 20px 0;
 }
 .banner-content-home {
     padding: 360px 0;
