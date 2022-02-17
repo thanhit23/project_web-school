@@ -595,3 +595,8 @@ html {
     font-size: 30px;
     color: #fff;
 }
+#chat-application {
+    bottom: 60px !important;
+    right: 5px !important;
+}
+
