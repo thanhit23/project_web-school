@@ -228,3 +228,14 @@
   color: #666;
   text-align: justify;
 }
+.container-introduct {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+.container-introduct-story {
+  width: 70%;
+}
+.container-introduct-img {
+  width: 30%;
+}

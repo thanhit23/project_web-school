@@ -41,37 +41,3 @@
     margin-top: 20px;
     border: 2px solid red;
 }
-.container-table {
-    color: #333;
-}
-.header-table {
-    background-color: #625fd1;
-    color: #fff;
-}
-.header-table th {
-    padding: 15px;
-}
-.body-table {
-    font-size: 20px;
-}
-.body-table td {
-    padding: 5px;
-}
-.body-row-2 {
-    font-size: 18px;
-}
-.body-row-2 td {
-    padding: 9px;
-}
-.body-row-3 {
-    font-size: 15px;
-}
-.body-row-3 td {
-    padding: 15px 2px;
-}
-.footer-table {
-    background-color: #98cbc0;
-}
-.footer-table td {
-    padding: 15px;
-}
