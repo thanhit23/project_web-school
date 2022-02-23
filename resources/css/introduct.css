@@ -207,6 +207,7 @@
 }
 .event-content-right {
   float: left;
+  margin: 20px 10px;
 }
 .event-content-right > a {
   padding: 10px;
@@ -227,14 +228,15 @@
   color: #666;
   text-align: justify;
 }
-.container-body-infomation {
+.container-introduct-story {
+  padding: 10px;
   display: flex;
   flex-direction: row;
 }
-.container-content-infomation {
+.container-content-information {
   width: 70%;
 }
-.container-img-infomation  {
+.container-img-information  {
   width: 30%;
 }
 .container-story {
