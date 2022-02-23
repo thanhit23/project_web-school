@@ -76,6 +76,7 @@ html {
     flex-direction: column;
 }
 .item_list-diagram, .item_list-library {
+    font-weight: bold;
     color: #fff;
     padding: 10px 20px;
     font-size: 12px;
@@ -83,11 +84,11 @@ html {
 }
 .item_list-diagram:hover {
     color: #EC1C23;
-    padding-left: 18px;
+    padding-left: 25px;
 }
 .item_list-library:hover {
     color: #EC1C23;
-    padding-left: 18px;
+    padding-left: 25px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }

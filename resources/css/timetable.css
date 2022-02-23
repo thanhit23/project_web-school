@@ -1,5 +1,12 @@
+.bg-white {
+  background-color: #fff;
+}
 body {
   margin: 0;
+}
+.list-timetable-12 {
+  display: flex;
+  flex-direction: column;
 }
 .container-table {
   color: #333;
@@ -23,19 +30,6 @@ body {
 .body-row-2 td {
   padding: 9px;
 }
-.body-row-3 {
-  font-size: 15px;
-}
-.body-row-3 td {
-  padding: 15px 2px;
-}
-.footer-table {
-  background-color: #98cbc0;
-}
-.footer-table td {
-  padding: 15px;
-}
-.list-timetable-12 {
-  display: flex;
-  flex-direction: column;
+tr:nth-child(even) {
+  background-color: #dfdfdf;
 }

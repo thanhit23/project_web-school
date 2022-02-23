@@ -303,8 +303,11 @@
   margin-bottom: 65px;
 }
 .p-0 {
-  padding: 0;
+  padding: 0 !important;
 }
 .mt-10 {
   margin-top: 10px !important;
+}
+.pb-15 {
+  padding-bottom: 15px !important;
 }
