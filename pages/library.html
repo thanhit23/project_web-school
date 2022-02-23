@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/resources/css/library.css">
     <link rel="icon" href="/resources/img/logo-img.png" type="image/x-icon" />
     <link rel="stylesheet" href="/resources/css/style.css">
+    <link rel="stylesheet" href="/resources/css/event.css">
     <link rel="stylesheet" href="/resources/css/booostrap.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" integrity="sha512-i8+QythOYyQke6XbStjt9T4yQHhhM+9Y9yTY1fOxoDQwsQpKMEpIoSQZ8mVomtnVCf9PBvoQDnKl06gGOOD19Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
@@ -71,28 +72,108 @@
     </div>
     <div class="header-content-page">
         <div class="container">
-            <div class="row">
-                <div class="header-content-home">
-                    <div class="content-home-welcome">Giới thiệu Thư Viện</div>
-                </div>
-                <div class="container-page-notification">
-                    <div class="container-page-text">
-                        Thư Viện Trường Trần Văn Dư Phát Triển Theo Thời Gian!
+            <div class="row container-content-library">
+                <div class="col-md-4">
+                    <div class="blog-sidebar left">
+                        <div class="single-blog-widget mb-50">
+                            <h3>tìm kiếm</h3>
+                            <div class="blog-search">
+                                <form id="search" class="container-form-search" action="#">
+                                    <input type="search" placeholder="Search..." name="search">
+                                    <button type="submit">
+                                        <span><i class="fa fa-search"></i></span>
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="single-blog-widget mb-50">
+                            <h3>thể loại sách</h3>
+                            <ul>
+                                <li><a href="#">Tiểu Thuyết (15)</a></li>
+                                <li><a href="#">Văn Mẫu (10)</a></li>
+                                <li><a href="#">Truyện Ngắn (12)</a></li>
+                                <li><a href="#">Truyện Cười (08)</a></li>
+                            </ul>
+                        </div>
+                        <div class="single-blog-widget mb-50">
+                            <h3>Sách Đọc Nhiều Nhất</h3>
+                            <div class="single-post">
+                                <div class="single-post-img">
+                                    <a href="#">
+                                        <div class="img-fill">
+                                            <img src="/resources/img/Song_Xuan_Quynh.jpeg" alt="post">
+                                        </div>
+                                        <div class="blog-hover">
+                                            <i class="fa fa-link"></i>
+                                            <div class="after_blog-hover"></div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="single-post-content">
+                                    <h4><a href="#">Sóng</a></h4>
+                                    <p>Tác Giả: Xuân Quỳnh</p>
+                                </div>
+                            </div>
+                            <div class="single-post">
+                                <div class="single-post-img">
+                                    <a href="#">
+                                        <div class="img-fill">
+                                            <img src="/resources/img/Viet_Bac.jpeg" alt="post">
+                                        </div>
+                                        <div class="blog-hover">
+                                            <i class="fa fa-link"></i>
+                                            <div class="after_blog-hover"></div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="single-post-content">
+                                    <h4><a href="#">Việt Bắc</a></h4>
+                                    <p>Tác Giả: Tố Hữu</p>
+                                </div>
+                            </div>
+                            <div class="single-post">
+                                <div class="single-post-img">
+                                    <a href="#">
+                                        <div class="img-fill">
+                                            <img src="/resources/img/tchi-pheo.jpeg" alt="post">
+                                        </div>
+                                        <div class="blog-hover">
+                                            <i class="fa fa-link"></i>
+                                            <div class="after_blog-hover"></div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="single-post-content">
+                                    <h4><a href="#">Chí Phèo</a></h4>
+                                    <p>Tác Giả: Nam Cao</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <img src="/resources/img/library.jpg" alt="">
-                    <p class="library-text"> Trường THPT Trần Văn Dư được thành lập vào tháng 9 năm 2000, theo Quyết định số 47/QĐ-UB ngày 01 tháng 9 năm 2000 của Ủy
-                         Ban Nhân Dân tỉnh Quảng Nam. Trường xây dựng tại thôn An Mỹ II, xã Tam An , huyện Phú Ninh, tỉnh Quảng Nam, là nơi học tập
-                          của các em học sinh ở các xã  huyện Phú Ninh và các xã cánh Nam huyện Thăng Bình. Đây là những địa phương chịu nhiều mất mát
-                           trong chiến tranh và nay vẫn còn không ít khó khăn, nhưng đa số các em học sinh có tinh thần hiếu học. Trường được vinh dự  mang 
-                           tên nhà chí sĩ yêu nước- tiến sĩ Trần Văn Dư người con của quê hương An Thọ- Tam An giàu truyền thống cách mạng.</p>
-                    <img src="/resources/img/library1.jpeg" alt="">
-                    <p class="library-text">
-                        Ngay sau khi được thành lập , trường tổ chức khai giảng năm học đầu tiên (2000-2001) với  8 lớp 10 có 407 học sinh.
-                         Ban đầu trường có 21 CB-GV-NV,  2 dãy với 16 phòng , nhà trường bố trí 08 phòng học, còn lại là các phòng làm việc,có 
-                         thể nói thiếu thốn, khó khăn rất nhiều. Được sự quan tâm của các cấp chính quyền địa phương, sở GD&ĐT, phụ huynh học sinh,
-                          đội ngũ CB-GV-NV và học sinh nhà trường đã vượt qua những khó khăn về điều kiện vật chất để thực hiện tốt nhiệm vụ dạy và 
-                          học của mình và chung tay góp sức xây dựng ngôi trường ngày càng trưởng thành và khẳng định vị trí của mình.
-                    </p>
+                </div>
+                <div class="col-md-8"> 
+                    <div class="header-content-home">
+                        <div class="content-home-welcome">Giới thiệu Thư Viện</div>
+                    </div>
+                    <div class="container-page-notification">
+                        <div class="container-page-text">
+                            Thư Viện Trường Trần Văn Dư Phát Triển Theo Thời Gian!
+                        </div>
+                        <img src="/resources/img/library.jpg" alt="">
+                        <p class="library-text"> Trường THPT Trần Văn Dư được thành lập vào tháng 9 năm 2000, theo Quyết định số 47/QĐ-UB ngày 01 tháng 9 năm 2000 của Ủy
+                             Ban Nhân Dân tỉnh Quảng Nam. Trường xây dựng tại thôn An Mỹ II, xã Tam An , huyện Phú Ninh, tỉnh Quảng Nam, là nơi học tập
+                              của các em học sinh ở các xã  huyện Phú Ninh và các xã cánh Nam huyện Thăng Bình. Đây là những địa phương chịu nhiều mất mát
+                               trong chiến tranh và nay vẫn còn không ít khó khăn, nhưng đa số các em học sinh có tinh thần hiếu học. Trường được vinh dự  mang 
+                               tên nhà chí sĩ yêu nước- tiến sĩ Trần Văn Dư người con của quê hương An Thọ- Tam An giàu truyền thống cách mạng.</p>
+                        <img src="/resources/img/library1.jpeg" alt="">
+                        <p class="library-text">
+                            Ngay sau khi được thành lập , trường tổ chức khai giảng năm học đầu tiên (2000-2001) với  8 lớp 10 có 407 học sinh.
+                             Ban đầu trường có 21 CB-GV-NV,  2 dãy với 16 phòng , nhà trường bố trí 08 phòng học, còn lại là các phòng làm việc,có 
+                             thể nói thiếu thốn, khó khăn rất nhiều. Được sự quan tâm của các cấp chính quyền địa phương, sở GD&ĐT, phụ huynh học sinh,
+                              đội ngũ CB-GV-NV và học sinh nhà trường đã vượt qua những khó khăn về điều kiện vật chất để thực hiện tốt nhiệm vụ dạy và 
+                              học của mình và chung tay góp sức xây dựng ngôi trường ngày càng trưởng thành và khẳng định vị trí của mình.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
